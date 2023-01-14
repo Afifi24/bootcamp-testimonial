@@ -186,6 +186,12 @@ min-height: 100vh;
 /* ===== small scren ====  */
 
 @media screen and (max-width:950px) {
+  .container__bg{
+    min-height: 150vh;
+  }
+  .container{
+  padding-top: 5rem;
+}
   .testimonial{
     grid-template-columns: 1fr;
     gap: 3rem;
@@ -239,6 +245,14 @@ min-height: 100vh;
   align-items: center;
   p{
     font-size: 18px;
+    .colone{
+    position: absolute;
+    top:-18%;
+    left:50%;
+    transform: translateX(-50%);
+    transform: translateX(-20%);
+    width: 50px;
+    }
   }
 }
 .author{
@@ -254,6 +268,11 @@ min-height: 100vh;
   font-size: 14px;
   text-align: center;
   }
+}
+
+.arrow__btn{
+  left: 50%;
+  transform: translateX(-50%);
 }
 }
 `
